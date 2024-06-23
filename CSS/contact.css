@@ -1,0 +1,91 @@
+.contact_form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.contact_form h1 {
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.contact_form input, .contact_form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact_form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00d5fb;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact_form button:hover {
+    background-color: #0088ff;
+}
+
+.row {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: space-between; /* 元素间隔开 */
+    margin: 20px 0;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 水平居中 */
+    justify-content: center; /* 垂直居中 */
+}
+
+.column.left {
+    /* 如果左侧图片需要占据更多空间，可以调整flex值 */
+    flex: 1;
+}
+
+.column.left img {
+    max-width: 100%;
+    height: auto;
+}
+
+.column.right {
+    flex: 1;
+    padding: 20px; /* 根据需要可调整 */
+}
+
+.calendar_container {
+    width: auto; /* 宽度自动以适应内容 */
+    margin: auto; /* 自动边距实现水平居中 */
+    text-align: center; /* 文字居中 */
+}
+
+.calendar_container h2 {
+    margin-bottom: 15px;
+}
+
+#calendar {
+    border-collapse: collapse;
+    margin: auto; /* 日历居中 */
+}
+
+#calendar, #calendar th, #calendar td {
+    border: 1px solid #ddd;
+}
+
+#calendar th, #calendar td {
+    padding: 8px;
+}
+
+#calendar th {
+    background-color: #007bff;
+    color: white;
+    text-align: center; /* 标题居中 */
+}
